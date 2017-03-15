@@ -9,4 +9,6 @@ RUN mkdir /opt/presto && \
 
 COPY ["./etc", "/opt/presto/etc"]
 
+EXPOSE 8080
+
 CMD ["/opt/presto/bin/launcher", "run"]
