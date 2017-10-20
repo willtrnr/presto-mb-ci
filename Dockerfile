@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM openjdk:8-jdk
 
 MAINTAINER William Turner <william.turner@aero.bombardier.com>
 
